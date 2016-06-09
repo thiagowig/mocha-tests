@@ -12,5 +12,5 @@ exports.slowMethod = function() {
 };
 
 exports.myMethod = function() {
-  return slowMethod();
+  return exports.slowMethod();
 };
